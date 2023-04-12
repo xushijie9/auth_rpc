@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package auth_rpc;
+
+option go_package = "./auth_rpc";
+
+message AuthRequest {
+  string userName = 1;
+  string userPass = 2;
+}
+
+message AuthReply {
+  string userName = 1;
+  string msg = 2;
+  bool isLoginSuccess = 3;
+}
+
+service Auth {
+  rpc LoginAuth(AuthRequest) returns(AuthReply);
+}
