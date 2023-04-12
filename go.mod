@@ -1,4 +1,4 @@
-module auth_rpc
+module github.com/xushijie9/auth_rpc
 
 go 1.19
 

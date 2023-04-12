@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"auth_rpc/rpc/internal/svc"
-	"auth_rpc/rpc/types/auth_rpc"
+	"github.com/xushijie9/auth_rpc/rpc/internal/svc"
+	"github.com/xushijie9/auth_rpc/rpc/types/auth_rpc"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

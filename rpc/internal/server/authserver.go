@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"auth_rpc/rpc/internal/logic"
-	"auth_rpc/rpc/internal/svc"
-	"auth_rpc/rpc/types/auth_rpc"
+	"github.com/xushijie9/auth_rpc/rpc/internal/logic"
+	"github.com/xushijie9/auth_rpc/rpc/internal/svc"
+	"github.com/xushijie9/auth_rpc/rpc/types/auth_rpc"
 )
 
 type AuthServer struct {
